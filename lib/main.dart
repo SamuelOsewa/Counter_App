@@ -23,11 +23,11 @@ class _MyAppState extends State<MyApp> {
   }
 
   void increaseCounterByTwo() {
-    setState(() => count + 2);
+    setState(() => count = count + 2);
   }
 
   void increaseCounterByThree() {
-    setState(() => count + 3);
+    setState(() => count = count + 3);
   }
 
   @override
