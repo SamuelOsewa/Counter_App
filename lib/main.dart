@@ -40,9 +40,19 @@ class _MyAppState extends State<MyApp> {
         body: Container(
           child: Column(
             children: [
-              Counter(
+              Row(
+                children: [
+                  Counter(
+                    '$count',
+                  ),
+                ],
+              ),
+              /*Counter(
                 '$count',
               ),
+              Counter(
+                '$count',
+              ),*/
               IncreaseNumberByOne(increaseCounterByOne),
               IncreaseNumberByTwo(increaseCounterByTwo),
               IncreaseNumberByThree(increaseCounterByThree),
