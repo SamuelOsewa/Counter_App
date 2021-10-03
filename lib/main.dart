@@ -41,7 +41,11 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  Counter(
+                    '$count',
+                  ),
                   Counter(
                     '$count',
                   ),

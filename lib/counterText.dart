@@ -8,7 +8,7 @@ class Counter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
+      //width: double.infinity,
       //This gives the container as much width as it can get
       // in this case, it's the full width of the screen.
       margin: EdgeInsets.all(10),
